@@ -1,4 +1,5 @@
-ity Module for HBNB project """
+#!/usr/bin/python3
+""" City Module for HBNB project """
 # Imports the Base Model Class
 from models.base_model import BaseModel
 
