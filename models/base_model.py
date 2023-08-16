@@ -48,6 +48,7 @@ class BaseModel:
         return (dict_copy)
 
     def __str__(self):
-        """Return the string representation of the instance."""
-        return f"[{self.__class__.__name__}] ({self.id}) {self.__dict__}"
+        """String representation of the BaseModel class"""
+        return "[{:s}] ({:s}) {}".format(self.__class__.__name__, self.id,
+                                         self.__dict__)
 
