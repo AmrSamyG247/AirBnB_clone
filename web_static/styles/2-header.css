@@ -1,0 +1,10 @@
+/*
+ * === Header style 2-header.css file ===
+ */
+
+/* Header style */
+header {
+  background-color: #f00;
+  height: 70px;
+  width: 100%;
+}
